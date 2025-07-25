@@ -1,4 +1,3 @@
-
 # Aircraft Flight Calculator ✈️
 
 A Python-based flight analysis tool with:
@@ -11,10 +10,13 @@ A Python-based flight analysis tool with:
 - Includes presets for real-world aircraft
 
 ## Inputs
+- Wing area (m² or ft²)
+- Velocity (m/s or knots)
+- Cruising or max altitude (m or ft)
+- Aircraft weight (Newtons or pounds)
+- Lift & drag coefficient
 
-- 
-
-### CLI Version
-```bash
-python flight_calc_cli.py
-# Aircraft-Flight-Calculator
+## Outputs
+- Air density
+- Lift
+- Drag
