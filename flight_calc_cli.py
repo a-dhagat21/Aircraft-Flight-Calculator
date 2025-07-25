@@ -59,7 +59,7 @@ def choose_aircraft():
         elif choice == "custom":
             return None
         else:
-            print("Invalid choice. Choose from the list.")
+            print("Invalid choice. Choose from the list provided.")
 
 # Checks and makes sure that input is both a number as well as a positive number
 
